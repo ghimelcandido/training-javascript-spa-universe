@@ -1,0 +1,71 @@
+body {
+    background: rgb(63,76,251);
+    background: radial-gradient(circle, rgba(63,76,251,1) 0%, rgba(82,70,252,1) 100%);
+}
+
+#home {
+    display: grid;
+    align-items: center;
+    place-content: center;
+    height: 80vh;
+}
+
+header {
+    display: flex;
+    place-content: left;
+    gap: 20px;
+    margin-left: 35px;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+header a {
+    color: inherit;
+    text-decoration: inherit;
+    color: white;
+}
+
+header a:hover {
+    color: rgb(184, 192, 230);
+}
+
+.houstonWeHaveAProblem,
+.home{
+    display: grid;
+    align-items: center;
+    place-content: center;
+    height: 80vh;
+    color: white;
+}
+
+.universePage,
+.aboutUs {
+    display: grid;
+    align-items: center;
+    place-content: center;
+    height: 80vh;
+
+    padding: 15px 180px;
+    color: white;
+    font-size: 20px;
+}
+
+.home h1, a{
+    display: grid;
+    align-items: center;
+    place-content: center;
+    color: white;
+    text-decoration: inherit;
+}
+
+.home h1 {
+    font-size: 45px;
+}
+
+.home a {
+    font-size: 20px;
+    border: 4px solid #c4dbe6;
+    border-radius: 40px 40px 40px 40px;
+    padding: 10px;
+    margin: 0px 50px
+}
